@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class tugassoal4 {
+	public static void main (String []args) {
+		int s,t;
+		int jarakPerliter = 0;
+		int sisajarak = 0;
+		double liter = sisajarak * jarakPerliter;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Masukkan sisa BBM dalam tangki (liter) = :");
+		s = input.nextInt();
+		System.out.print("Masukkan konsumsi BBM kendaraan (km/liter) = :");
+		t = input.nextInt();
+		
+		t= (int) ((double) s / liter);
+		int jarak = s;
+		System.out.println("Kendaraan Anda dapat menempuh jarak " +jarak+ "kilometer dengan sisa BBM yang ada di tangki");
+		}
+
+
+}
