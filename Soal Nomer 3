@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class soaltugas3 {
+	public static void main (String []args) {
+			int s,t;
+			double v;
+			
+			Scanner input = new Scanner(System.in);
+			
+			System.out.print("Masukan Jarak (km) :");
+			s = input.nextInt();
+			System.out.print("Masukan Waktu(Jam) :");
+			t = input.nextInt();
+			
+			v = (double) s / t;
+			System.out.println("Kecepatan Rata Rata Anda Adalah = " +v+" km/jam");
+			}
+
+
+	}
